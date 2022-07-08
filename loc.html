@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização - FisioForm</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="gang">
+            <a href="index.html"><img src="imagens/zyro-image-removebg-preview.png" class="logo"></a>
+        </div>
+        <ul id="navi-list" class="nav-list" >
+            <li class="list-item">
+                <a href="sobre.html">Preços</a>
+            </li>
+            <li class="list-item">
+                <a href="loc.html">Localização</a>
+            </li>
+            <li class="list-item">
+                <a href="https://wa.me/+5586999781018">Contato</a>
+            </li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <center>
+        <br>
+        <br>
+        <br>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15838.137642685668!2d-41.4515439!3d-7.0638607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d2d7710fb1d2684!2sAcademia%20Fisioform!5e0!3m2!1spt-BR!2sbr!4v1657254327835!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        <br>
+        <br>
+    </center>
+    <h1 class="desc">Ipueiras, Picos - PI, 64600-000</h1>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active');
+    })
+</script>
+</html>
